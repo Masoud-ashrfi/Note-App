@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes-App</title>
+    <link rel="stylesheet" href="app.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body class="bg-gradient-to-r from-purple-400 to-blue-300">
+    <div class="w-full min-h-[100vh] pt-[4%] pl-[10%]">
+      <div class="image-text flex">
+        <img class="note-image w-14" src="images/notes.png" alt="Note logo" />
+        <p class="text-white font-bold text-3xl mt-2">Notes</p>
+      </div>
+      <button
+        class="flex justify-center items-center mt-5 gap-2 bg-gradient-to-r from-[#9418fd] to-[#571094] text-white rounded-full w-[160px] h-[45px] note-button"
+      >
+        <img class="w-5 mt-[2px]" src="images/edit.png" />Create Notes
+      </button>
+      <div class="notes-container flex flex-wrap gap-4 my-5">
+        <!-- <p
+          contenteditable="true"
+          class="input-box relative w-full max-w-[500px] min-h-[150px] bg-white text-[#333] p-5 outline-none rounded-md"
+        >
+          <img
+            class="absolute right-4 bottom-4 w-7 cursor-pointer delete-note"
+            src="images/delete.png"
+          />
+        </p> -->
+      </div>
+    </div>
+  </body>
+</html>
